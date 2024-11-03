@@ -6,10 +6,10 @@
     "main": "index.js",
     "homepage": "https://kritipare.github.io/FrozenColumnTableServer",
     "scripts": {
-        "build": "babel . -d dist",
+        "build": "babel src -d dist",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "start": "node index.js",
+        "start": "node src/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
